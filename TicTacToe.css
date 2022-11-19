@@ -1,3 +1,50 @@
-h1 {
+body {
+    margin: 0;
+}
+
+.titleBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    width: 100%;
+    height: 100px;
+}
+
+.titleBox h1 {
     color: antiquewhite;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9fbe7;
+    width: 100%;
+}
+
+.gameboard {
+    display: grid;
+    width: 40vw;
+    height: 40vw;
+    grid-template-columns: auto auto auto;
+    margin: 5vw;
+}
+
+.gameboard_item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    font-size: 10vw;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    background-color: #f9fbe7;
+    padding: 3%;
 }
