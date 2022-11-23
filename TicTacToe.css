@@ -23,13 +23,14 @@ body {
     align-items: center;
     background-color: #f9fbe7;
     width: 100%;
+    flex-direction: column;
 }
 
 .gameboard {
     display: grid;
     width: 40vw;
     height: 40vw;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
     margin: 5vw;
     aspect-ratio: 1/1;
 }
@@ -53,4 +54,10 @@ body {
     justify-content: center;
     background-color: #f9fbe7;
     padding: 3%;
+}
+
+.turn {
+    font-size: 40px;
+    margin-top: 2%;
+    font-family: monospace;
 }
