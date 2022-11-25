@@ -19,6 +19,7 @@ function setGameBoard() {
         }
         turn = 0;
         thisTurn.textContent = player1.getName() + " turn";
+        won = false;
     })
 
     reset.appendChild(resetbtn);
